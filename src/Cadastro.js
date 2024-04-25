@@ -13,7 +13,7 @@ function Cadastro() {
         const tamanho = document.getElementById('tamanhoCadastro');
         
             addCalcados(cor.value, Marca.value, Nome.value, tamanho.value);
-        
+            window.location = '/Calcados';
     };
 
     const botao = document.getElementById('botaoCadastro');
