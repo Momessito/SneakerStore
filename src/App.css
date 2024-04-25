@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero{
+  background-image: url('https://www.conti.com.br/content/dam/conti-tires-cms/sample-content/images/contir-1431/CONTIR-1431-background-desktop.png');
+  font-family: "Outfit", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero h1{
+  font-size: 4rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero img{
+  width: 300px;
+}
+.cardCadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.icone{
+  position: fixed;
+  width: 100px;
+  left: 10px;
+  top: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px;
+}
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#1fa5ff, #12006b);
+  overflow: hidden;
+}
+.space{
+  height: 300px;
+}
+.table{
+  width: 80%;
+}
+.tabela{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#1f66ff, #02006b);
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 150px;
+}
+
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  position: static;
+  max-width: 240px;
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: #0d6efd;
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #ececf4;
+  width: fit-content;
+}
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #0d6efd solid;
+  border-radius: 5px;
+  background: #ececf4;
+}
+
+.coolinput input[type=password].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #0d6efd solid;
+  border-radius: 5px;
+  background: #ececf4;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+.coolinput input[type=password].input:focus {
+  outline: none;
 }
