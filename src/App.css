@@ -127,3 +127,116 @@
 .coolinput input[type=password].input:focus {
   outline: none;
 }
+
+.navInicio{
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  z-index: 10;
+}
+.fundo{
+  background-size: 100% 100%;
+  width: 100% !important;
+  height: 60vh !important;
+  object-fit: cover;
+}
+.medio{
+  height: 60vh !important;
+}
+.textHero{
+  color: white;
+
+}
+
+.Part1{
+  width: 100%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.Titulos{
+  margin: 20px;
+  align-items: flex-end;
+    justify-content: center;
+}
+.Titulos h1{
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.Titulos small{
+  margin: 5px;
+}
+
+.marca{
+  width: auto;
+  color: white;
+  background-image: url('');
+  background-size: 110% 80%;
+  background-repeat: no-repeat;
+  background-position: -200% 100%;
+  background-color: #1E1E1E;
+  
+}
+
+.marcabutton{
+  width: 50%;
+  margin-top: 20px;
+}
+.marca h1{
+  margin-top: 60px;
+font-size: 1.7rem;
+font-weight: bold;
+}
+
+.Chooser{
+  display: flex;
+  margin: 10px;
+  flex-wrap: nowrap;
+
+}
+.Chooser div{
+  margin: 5px;
+}
+.marca{
+background-position: 1000% 1000%;
+height: 350px;
+}
+
+.marca h1{
+  opacity: 0;
+}
+.marca p{
+  opacity: 0;
+}
+.marcabutton{
+  opacity: 0;
+}
+.marca{
+width: 12.5%;
+background-position: 100% 1000%;
+height: 350px;
+}
+
+.marca:hover .marcabutton{
+ opacity: 1;
+}
+
+.marca:hover h1{
+  opacity: 1;
+}
+.marca:hover p{
+  opacity: 1;
+}
+.marca:hover{
+  width: auto;
+  transition: 0.5s linear all;
+
+  transition: 0s linear all;
+  background-position: 100% 100%;
+  background-size: 110% 80%;
+
+}

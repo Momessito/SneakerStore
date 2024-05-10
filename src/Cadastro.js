@@ -29,7 +29,8 @@ function Cadastro() {
     };
 }, []); // Executa somente na montagem inicial do componente
     
-    return ( <div className="cardCadastro">
+    return ( 
+    <div className="cardCadastro">
             <img src={img} className="icone"/>
 
     <div class="w-full max-w-lg">
