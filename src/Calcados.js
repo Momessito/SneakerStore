@@ -132,27 +132,18 @@ function Calcados() {
         
       {Sapatos && Sapatos.length > 0 ? (
         <div className="max-w-max">
-          <div className="Titulos flex"><h1>Marcas disponíveis</h1><small>{Sapatos.length} itens</small></div>
-          <table className="table">
-            <thead>
-              <tr>
-                <th>Nome</th>
-                <th>Tamanho</th>
-                <th>Cor</th>
-                <th>Marca</th>
-              </tr>
-            </thead>
-            <tbody>
+          <div className="Titulos flex"><h1>PRODUTOS DISPONÍVEIS</h1><small>{Sapatos.length} itens</small></div>
+          <div className="cardProduct">
               {Sapatos.map((calcado) => (
-                <tr key={calcado.id}>
-                  <td>{calcado.Nome}</td>
-                  <td>{calcado.Tamanho}</td>
-                  <td>{calcado.Cor}</td>
-                  <td>{calcado.Marca}</td>
-                </tr>
+                <div className="CardP" key={calcado.id}>
+                  <img src={nike} />
+                  <h1>{calcado.Nome}</h1>
+                  <div>{calcado.Tamanho}</div>
+                  <div>{calcado.Cor}</div>
+                  <div>{calcado.Marca}</div>
+                </div>
               ))}
-            </tbody>
-          </table>
+          </div>
           <button className="btn btn-primary" onClick={Indo}>Cadastrar tênis</button>
         </div>
       ) : (
