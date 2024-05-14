@@ -1,242 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-.background-radial-gradient {
-  background-color: hsl(218, 41%, 15%);
-  background-image: radial-gradient(650px circle at 0% 0%,
-      hsl(218, 41%, 35%) 15%,
-      hsl(218, 41%, 30%) 35%,
-      hsl(218, 41%, 20%) 75%,
-      hsl(218, 41%, 19%) 80%,
-      transparent 100%),
-    radial-gradient(1250px circle at 100% 100%,
-      hsl(218, 41%, 45%) 15%,
-      hsl(218, 41%, 30%) 35%,
-      hsl(218, 41%, 20%) 75%,
-      hsl(218, 41%, 19%) 80%,
-      transparent 100%);
-
-
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.hero{
-  background-image: url('https://www.conti.com.br/content/dam/conti-tires-cms/sample-content/images/contir-1431/CONTIR-1431-background-desktop.png');
-  font-family: "Outfit", sans-serif;
+.Hero{
+    width: 100%;
+    height: 70vh;
+    color: rgb(255, 255, 255);
 }
-.hero h1{
-  font-size: 4rem;
-}
-.hero img{
-  width: 300px;
-}
-.cardCadastro{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-}
-.icone{
-  position: fixed;
-  width: 100px;
-  left: 10px;
-  top: 10px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0px 0px 5px;
-}
-#radius-shape-1 {
-  height: 220px;
-  width: 220px;
-  top: -60px;
-  left: -130px;
-  background: radial-gradient(#1fa5ff, #12006b);
-  overflow: hidden;
-}
-.space{
-  height: 300px;
-}
-.table{
-  width: 80%;
-}
-.tabela{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#radius-shape-2 {
-  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
-  bottom: -60px;
-  right: -110px;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(#1f66ff, #02006b);
-  overflow: hidden;
-}
-
-.bg-glass {
-  background-color: hsla(0, 0%, 100%, 0.9) !important;
-  backdrop-filter: saturate(200%) blur(25px);
-}
-
-.logo {
-  width: 150px;
-}
-
-.coolinput {
-  display: flex;
-  flex-direction: column;
-  width: -webkit-fill-available;
-  position: static;
-  max-width: 240px;
-}
-
-.coolinput label.text {
-  font-size: 0.75rem;
-  color: #0d6efd;
-  font-weight: 700;
-  position: relative;
-  top: 0.5rem;
-  margin: 0 0 0 7px;
-  padding: 0 3px;
-  background: #ececf4;
-  width: fit-content;
-}
-
-.coolinput input[type=text].input {
-  padding: 11px 10px;
-  font-size: 0.75rem;
-  border: 2px #0d6efd solid;
-  border-radius: 5px;
-  background: #ececf4;
-}
-
-.coolinput input[type=password].input {
-  padding: 11px 10px;
-  font-size: 0.75rem;
-  border: 2px #0d6efd solid;
-  border-radius: 5px;
-  background: #ececf4;
-}
-
-.coolinput input[type=text].input:focus {
-  outline: none;
-}
-
-.coolinput input[type=password].input:focus {
-  outline: none;
-}
-
-.navInicio{
-  position: absolute;
-  top:0px;
-  left:0px;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  z-index: 10;
+.Hero div{
+    display: flex;
+    z-index: 1;
 }
 .fundo{
-  background-size: 100% 100%;
-  width: 100% !important;
-  height: 60vh !important;
-  object-fit: cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 60vh;
+    object-fit: cover;
+    filter: brightness(20%);
 }
-.medio{
-  height: 60vh !important;
+.textHero h1{
+  z-index: 2;
 }
-.textHero{
-  color: white;
+.textHero p{
+  z-index: 2;
+}
+.Hero .navbar{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Hero .navbar img{
+    width: 50px;
+    z-index: 1;
+}
+.Hero .navbar img:last-child{
+    width: 30px;
+}
+.Hero .textHero{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 20vh;
+    z-index: 1;
+}
+.Hero .sair{
+    align-items: center;
 
 }
-
-.Part1{
-  width: 100%;
-  margin-left: 30%;
-  margin-right: 30%;
+.Hero .sair p{
+    margin-right: 15px;
 }
 
-.Titulos{
-  margin: 20px;
-  align-items: flex-end;
-    justify-content: center;
+.Marcas .marcasText{
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
-.Titulos h1{
-  font-size: 2rem;
-  font-weight: bolder;
-  letter-spacing: 1px;
-}
-
-.Titulos small{
-  margin: 5px;
+.dispProdutos .marcasText{
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
-.marca{
-  width: auto;
-  color: white;
-  background-image: url('');
-  background-size: 110% 80%;
-  background-repeat: no-repeat;
-  background-position: -200% 100%;
-  background-color: #1E1E1E;
-  
+.Marcas .marcasText small{
+    margin-left: 20px;
 }
 
-.marcabutton{
-  width: 50%;
-  margin-top: 20px;
+.MarcasCard{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px;
+    overflow-y: auto;
 }
-.marca h1{
-  margin-top: 60px;
-font-size: 1.7rem;
-font-weight: bold;
+.MarcasCard .Card{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    color: white;
+    margin: 5px;
+    padding: 30px;
+    width: auto;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    min-width: 70px;
+}
+.Card .cardFundo{
+display: block;
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; 
+    opacity: 0.5;
+}
+.Card .logo{
+    width: 30px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+.Card h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+.Card p{
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+.Card button{
+    border: 0;
+    background-color: #D9D9D9;
+    color: black;
+    display: flex;
+    width: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding: 10px;
+}
+.Card .inv{
+    display: none;
 }
 
-.Chooser{
-  display: flex;
-  margin: 10px;
-  flex-wrap: nowrap;
-
+.Card:hover .inv{
+    display: block;
 }
-.Chooser div{
-  margin: 5px;
-}
-.marca{
-background-position: 1000% 1000%;
-height: 350px;
-}
-
-.marca h1{
-  opacity: 0;
-}
-.marca p{
-  opacity: 0;
-}
-.marcabutton{
-  opacity: 0;
-}
-.marca{
-width: 12.5%;
-background-position: 100% 1000%;
-height: 350px;
-}
-
-.marca:hover .marcabutton{
- opacity: 1;
-}
-
-.marca:hover h1{
-  opacity: 1;
-}
-.marca:hover p{
-  opacity: 1;
-}
-.marca:hover{
-  width: auto;
-  transition: 0.5s linear all;
-
-  transition: 0s linear all;
-  background-position: 100% 100%;
-  background-size: 110% 80%;
-
+.Card:hover .Card{
+    width: auto;
+    
 }
