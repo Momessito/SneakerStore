@@ -21,10 +21,10 @@ export const auth = firebase.auth();
 export {db , FieldValue };
 export default {firebase};
 
-export const addCalcados = async (Cor, Marca,Nome,Tamanho) => {
+export const addCalcados = async (Cor, Preco,Nome,Tamanho,imagem) => {
   await db.collection("Calcados").add({
     Cor,
-    Marca,Nome,Tamanho
+    Preco,Nome,Tamanho,imagem
   });
 };
 
