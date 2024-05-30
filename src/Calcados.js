@@ -5,7 +5,7 @@ import nike from './img/nike.png'
 import adidas from './img/adidas.png'
 import asics from './img/asics.png'
 import converse from './img/converse.png'
-import jordan from './img/nike.png'
+import jordan from './img/jordan.png'
 import mizuno from './img/mizuno.png'
 import puma from './img/puma.png'
 import newb from './img/newb.png'
@@ -30,10 +30,10 @@ function Calcados() {
   return (<>
     <div className="">
       <div class="Hero">
-        <img class="fundo" src="https://s3-alpha-sig.figma.com/img/b2ad/e30b/85eab93f11ab0fbee2e145c4a0f93d69?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Rn7KAFExiFYPFtI4exYRjYhNjUUNVawZ~ToGpWi0aiVh4jkTeAkggzXmeAcIzghIa9~1ioLqyjOzAnnhbHrHrF8xrhXctAZguy5RJS~BErl4ahyoBKIBAlnIUrbpyqiy1m5CtSQ3-viOSmOawJuU5Uez3lba50pSulRj6wnulg8EEhy8gmm1S12FTqruvbSnFDQXHXiZmLotvFhS0ZIPu3TiB2TQ3tyl2Z2wl66LkewBWLT~SCPE5SdeFzW8zz4Zcti8tf291AxYC1Gzd1qkryZfEHLMoRKnQC7BmkdSu~LK-oFifSadIrcEYxKKaXCfV9u3vkJmml~AB6SyeTlgKw__" />
+        <img class="fundo" src="https://s3-alpha-sig.figma.com/img/b2ad/e30b/85eab93f11ab0fbee2e145c4a0f93d69?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OCiWZZ7svYESFtj-UVWA0n8CCm8Vf8-jzgifMkuY0sZCU0mFqQvD5fPLVMafRwljfnX6lNH~cbhveh09Y16HwZvd1bdFG9jVnumH2sB8qDcZ~geWoIE0QkEaILjF9sSo6b7YqrHGO9UhrkP19ICBovopvQ3oYIIIHK9~Ixr2HONF0fY9o5VZHFhAhNQzaEOp1cd6-3Q6LWQqefFq~ouUF1RXojuwi9ZDGzm1bjIS9wcN7~Seu8szsyjGb-Iripd05ZVLW9KQPYSTsinzZ3znVbAuBnKk5joO-1KjQtPl-Ul9HD8PtcIef5V6d-gaPHErXMMWf-1v0-BfPtUidBNG8w__" />
         <div class="navbar">
-          <img src="https://s3-alpha-sig.figma.com/img/7188/051b/94e692d5cff354d0914a7a31c2dd89a8?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pjzyqa9ZbcMGbOYZLhOr8cc4~j~DLuqg-~YHMCwZ9rluTHsZRHLaA-naYxnjTmqPvis9y2EYI-c2MWUlaumWNHj3SQT5b9AxM0qyUZAUZ9bSLW64PrGNj1ULO6nRaYAWmPnRkY7tJTVrllNwpopoELYLe56z1l7oUIebfpn8Ttx-jboOvgjP-ZE3Qu5gRCGQ4tcMDBF5QPa2AyF2FZ3xKeRfwdWjm7fMZOhyrlmPBA3xWgr2GtSY~vsf42dvaOvB3ZhUbF-fYVNcf2p7rZZzN3AtKzE11T90LEFkFH7gUWQHQ4NvrpLJn3yWMFOWznqLKGyGGUh3pX95evacE-pt2A__" alt="" />
-          <div class="sair"><p>SAIR</p><img src="https://s3-alpha-sig.figma.com/img/2b6b/09dc/e6bbf2f7883b9a8f4887fad106ce7e0c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k0CgHtZjdgoMfE7mtWGh-JN8lnNunt6LknB7Yjy3ymnDVI8dK6KNblCY6mOjH~-YWigKeButrrU2Wht-eo8ZSfZXfdygId2rcyr8C5WrPndOdncD-AQwkYo8W~IXenamgylwZ-NvFq-BZpT~fK2d~Le9ngiHseAfuVvR711mpz7zkshuEKBimHrMlQ7qyvp4RO83aBNAPti3tlpPiENTN2wTUNqG1w~CFZ7DYaOMGJHBbYch-BzNZFuu3EIAK33MtdYLZwFEY4xujxwgtN1hlE0-eIRouoVN28rOoyasRoX7nHiliZMh4jU6UBm1N2iSxBF0MwFTubRC~kj1i22UCA__" /></div>
+          <img src="https://s3-alpha-sig.figma.com/img/7188/051b/94e692d5cff354d0914a7a31c2dd89a8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WF5-7BoNFYXmsIEco3DOAOgsJ9ekpKJKFJWllg2p~KpN7mYOxfkjPF-8p-~rWO7yXkCBMsfFLMj3cfv3HgLy~lrDKwzrYKCGuMm4ihCLg0d1SIknvBm4KndzRpyme-G7LwI8fCOMIzfyFEKmJeMeecpW9qhQibMpvQ6xqavXBfToAXhJCpzHbAX7AczJW-nvV1YLm5xEQSX-4eE9SfYczZYXtbJwnEYVtg4SOi8dlL78BIAwd449mrAuYIBuxDtwVKCnlM~bH8V5it96IITRuC-6Nx6Duf8w7rMEUVaSJ5sBSEhGWU1X6YZYv9PchYS98-s9sEWwj3cIwB4WLjtR4Q__" alt="" />
+          <div class="sair"><p>SAIR</p><img src="https://s3-alpha-sig.figma.com/img/2b6b/09dc/e6bbf2f7883b9a8f4887fad106ce7e0c?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jgabydgQUVvpVDmh2fMbgb-E~D3kM~sKNzko9eFtZBxvOcehezwgKcTx9Q0talT2ObBbhLhpQYaiqJv9NHG4W7kWG8LoyOE2Xx7iyqDBhhgLPx5C1wytdDrieSafdH5lfbElSpHS0obMYZjx3hEHvrJoAKlFeEMOfnVtviepv5sNemtLIwOHw1cpiFAsFA~mR96rC6bEAoZcXf1dfCBh2WNvRPAj3Sq7itep8fHIIquXtb2MmhV9dDjI2ahNDX-eGp75yqg9KKXCO2R6PKTa3qP82-RkvJfYRM6Uv46JX3-jebxJ74TmMCFGYm0xVUURei4QslCtkaL~k-HD3TP26g__" /></div>
         </div>
 
         <div class="textHero">
@@ -47,7 +47,7 @@ function Calcados() {
         </div>
         <div class="MarcasCard">
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/80f5/b9d4/05f75c39c01c755f97ddc2866eede150?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ModDh69nVd1TarO5GuDLTNwnzA6d2shjwOCaO~GLFUML3opSLD~xY-idvBIvS3SLrbbkC75Bp5ENJi-4NzxkoyUaZsJmhKVZo9y889i9cbxfVezc3GCH1~-qKbfS3JcNOnYEZFxPfqfnm4mE8VtMA8-izm7xneB2P9a1pC9EXrVz-yyT-xUeKv9qaLKa5y2cuTTPhnrjF0tWSrBwiQ9kYv7aeSveX~Ew6s6zl9IZSjppfK7OTc867Y4uHKo~Y90v3Xc2ChxmBNyQq8OuT~teXaLEa4dKzDQB3dgJ6mVu2GIEEMd67ACzFUuf0wu3-hRKsk0bbjQzBt8zpMLdmmIJSQ__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/80f5/b9d4/05f75c39c01c755f97ddc2866eede150?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i19xodNfdHH5STnm5KyL9neYdQcgsMu2QdYjesDdOuNlqBQkW4yMpwgCNKB66EqLYuIzl~xAVe12s-DJhUh5qtJgoUvWu9RrJF2voM0zl10-e0NHiFmFDxEQtQPqXN4dzD6MwIFo4QDNDguiXB2D9Kj1DF6un7AMPXiYwwZ4wZDWBAr8rW9XWHTNc~szarrSAlZDO62~I3Xxxoah7YHlWpHos0Zv-pcZVMJNIXamYvW8f~CZi-dyWvGzVYvXONNm-8Pgd4CyxCABvP~L3dzGR3~XHWWHm0lCGXvsEqLTCalUzB0H1VkGJDBCFtjHx61NQCmGYj5cYyJnmB0c6y8nFg__" />
 
             <div class="inv">
               <img class="cardFundo" src={adidas} />
@@ -57,7 +57,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/b341/b2d1/c373150d973f49699a02b29836330f46?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N4EwtWg3MsL-W5H6Kw8N99zPyvw1dn4qAiLPGXj329~-KFG9FkAszvVLF09C0aGQ0spIogDvj2HvdAnnwLat51v~qnsLqNI~FfJ57YOQnQyVk3HfiXC21h9q2s2pH0VIMYY7Sz~4m71~gRxvNHafJl-GCwjKf6L8zkYJtVnJ5TH6RffKP5JQjleRaKC3Vy7hRm85n6IESmWMh5-Cbfc-Z25z1SKU-vgF-6DT-3XLxoa55dVZkmcG4HyF3NPynFLkZ8eCobIkb9uwI~pWOnGeMEfgfKne4GXF4klBfF~YX3oDyaanHiQzjuvtCQ04xjk-9DQYrzQbTSILVB3KZ~VP2Q__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/b341/b2d1/c373150d973f49699a02b29836330f46?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D66Kh0T01k-PVzZ9bQH846joZM7O2XgnGalwNDz--nkZjGB3eVjMN~j6gqPoUk~3LQWjHVh84g4kBiQfDahb36cxBt3qQs4oUe5V8wpOWwPIsJ5lFymabQylryR67U-Wsc-Vv0ZigjD6H82vZC1XIeEnQv0hNaRn45MOLzlT72-BG4mXVlhPKGBoqbcWjBJnmBwGlGunsCgM4FeLRZCwoak46gusnrbdZ7~D6~9XjyUS0mhCPmq0eCc4-A-bTWNr~UU8Fucvqc7pRFQRf5-hYWHzLNjAwhPK5aAhBAmo68PvcLP3PEhPewY83cUJzmUhfIe22IM7~G-c7gt4AhWIfg__" />
 
             <div class="inv">
               <img class="cardFundo" src={nike} />
@@ -67,7 +67,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/fa10/be26/29f1680a1994a7de8c3884d36d757cc7?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dJtzy3FIxybOBgBYCIx4nABDyocOw8RcHMuLfKETZssGq6iMNZYCwsYbrL5RNrMMwWyeYZMq~DzR5KiDOnSaYIBoi3nhBN7o3-DcQPr5p5AWMmWWLwA7SoomYx1FSJ15F6ECvx~3lrMRoizZpxzckkD13mLTTJGvIKg4vzv8rCQhyW5yU6ln6CEMlqfQJZcnAxLFron~ZFNE~VLmD3aW4AzZwM4rizIwx5H27vZGGe0cqAHAAk4PXN2OwkgcDcoAJBkeLZCr54mBlVBBgw88tGVTGUSW4bgIgD87x2xNm4TrAbuTj-d7H~ObxHbNBc52xibVJorRpZ05yYwstuIzXw__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/fa10/be26/29f1680a1994a7de8c3884d36d757cc7?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pmYY3H0i-kUThrdwpveUBf0MJB8Ufhi0q9tC7mHTPgV-WdnQUDV~nIiOU31SKNIcosn6Zti04CGpbOdCemEU7xw1N8c60qiGJWXMb-kiEORi5YJ16p7k7eK8oqqp1JY3dK0qESdP2I8OMZsujxiXX6GG04SbSyEUa37WgCvNV~PihmhtB7IBlGZpFUn5LYzaI0LHL4pE7CIMPHyih1xHon3oM8j7oEpTHtthm8nz8p02Qn9qX-CEo7F233cUpdqV0quNWpKua7tk0NJQWDjQJM3miZn6R0aGfcrwi4I-jsKt-NHdOBxpBvY0eibv-CK4F4jnuhB1YmVOB5bFDV3~3Q__" />
 
             <div class="inv">
               <img class="cardFundo" src={mizuno} />
@@ -77,7 +77,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/d101/15c2/b70e39ed8c9ab0052e5b55853f155ad6?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ANDTZcB5J3trAyaUzOvwLLvA5qCLunL0DqOd9Udlsca0ddEQdHdYmfmRgYnU7ZnlvUcSSC7StvrYiCwKOT0y5B5L9IzUeFnuiNl6~~Xni2uy9tEvI6Of-Z6FNmqjXv2FPMLgYDELwi8tTy24oRClhk795g4viBmYR9s~dgLONTgtEVWqeMbN3z5OsDF9OY7n5Vgi~jzJcV4c1Yj9FV0mPZAxOoxgOfFAG76epPcOK2NoIbxekLIsqKE7tuvuhhD~mn9NtyRPuCycAXJDyrzNB0XiIXTHMM3ixhnObKDq3K7RM-o87cT3CYUBZj8o0T-qiB~mxCId83GjayyALWJ75w__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/d101/15c2/b70e39ed8c9ab0052e5b55853f155ad6?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pWEAyxiNrajfr9HhHc61RufTdS~Ej6iR0gSJIRsQ7HZ2aY~OzJrat5U8IJj9Q6RcWD1B2HLyJrauGoUWHC7qh5laJuEqfKJBHdRGH8UWgJz-PyCI3Wf3L2eO3F2InbqAXi3Wr8WCj7T7Hif338BFmRjnObCEYwj9UTnvfFD9~1nBuduY83SGWLSDvbcldIipAD0CKO4ZPbM8nMaY6XFa8-S6UTpTzu-mPsnI72Ay0Jabw37cHHQebeKozc0vkWN25rV3gbwlCWF1frtEDQv-DnkSbHhFXPAkAqK6ZR0Oa9c8cZnJmL54OpGggbHfpyolPCEdEogShAc4MHsFOauJsw__" />
 
             <div class="inv">
               <img class="cardFundo" src={converse} />
@@ -87,7 +87,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/f15d/2167/b66f3f67176bfbcf9fd6892e1cb12f1a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K6eFZ~MlUSXo033R4laN9CQzurrnwUWaqdxgHnFtVS8vcO7PmLY1tTRVul65yAJcp0rF7TzHC-hX8CbP5DkyZU4ojbFbJnBMSzJa4G8FgiM0I4l4BBSEmgSap4Vn71-LYjOLvNhPEC8deNc1zl1AUqIpXO0PpwSWu-eAFEx~k7~i0uF778d15GnwKaV~RX27bPpv1b9s0oI2WC5ohymKB9SLVPyXezCZGzx2jHZCsxxYLLt-rr-ylDxlENEsvBNPVX7IgwY8lXc5m3KUJwXPY6-durpORZsr0AQMl0CLVW1EeHiUyYJD2Dmv8IPUI0ts~wsk-ut2Wv9G462XojEY8Q__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/f15d/2167/b66f3f67176bfbcf9fd6892e1cb12f1a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pr3xZZTeMUw~uzqO9ApSYdNLAzZEnxdiHYxBqnBg8bOU5rTZR~1s8I9j0kYIE3xFyeRXps7zlEyZhf5URhVJYyMdYMAM6iwKiJxKY~dUNSslsI1AZKVVqJPgoainvLnu5cD-3LIr0jZpknRgEZZQKK7SMHU3ATW8XjWMxd7T2bWQ06kvcZgWzI2YpxzS3BUc-PYuEmp07kOZ52uRu0vIjS4BxRk1~VJQrtKtAY6cPsoBJtA4C14j-WzBsfCwz4WYPeHUgb7IN~TdarZKgZtykFZ4TPYIiqc8PsiY86KFs4Txg9PdRYEOcXEADPXxY4vEzRAnxDggC4qyuNRLyCR3Kg__" />
 
             <div class="inv">
               <img class="cardFundo" src={puma} />
@@ -97,7 +97,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/b08a/80cf/9d19505c6a56086cc602ecc01314ae2c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jIOcqA00Uqy8n4MGTXhg-IDM8oOfSS5x0cKfbojT49ao7ljoLbM87KS4ZSWw3GmZ74zqUC6o2crWdTgg46cNDMcPP6r89GcSuViWebU~Ht6C0yPClam4NGaU4Ds1QK7rRFhQajx3zRNzxN5IXuIXkJoSD4M5C8ibFDEYenPQk6xgyXuAnuMS6VnjMX~DCQ5ngoRFHBZRhbdbxPyjaq2wx8MVZqnO8A7-1b9Dbhb2V-YNr2hhFFUroAVimNPYA03euJJUW84wmynIH3ev4r5j2VkIFRVwrklQQrs5~TJdYUpVz8LCrufcJpVAEQszV90ICkPwb17HVh0wbIXB9CGiCw__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/edc0/0318/d2ab4f304aaa71818c7b457d2044ec61?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=njy97udNZHVyLHpnRJtr9GoGmoz6oLWFUMN6V8TOUyGaMuopaz-UCSw5IkDSr4Qm~PR9FmA11s~ulutte8m8cTvFMiX4kMKNflmqZLODJ2nQIfa22HAVmVPCCYEB87Ddl4KlQr2fDGAJex8x9bqa7JtQZ3Iymvs~5NCwZex9~-1qJF5-lSxygIGOnZEKgjfjoq-57Yjs0JmCvdXY5cZjJnLbsaoyLvtIfoyfl9z-gfNC1f6yz3YNBBNTaTxdRvmGho2pZjq0EDSSvgg3Hl0KpP22Fdg4C03gQJtlGiFb12fndcaBzeJRHL1WAyx92HjZFWud3AaYT0pth1VltA~7rQ__" />
 
             <div class="inv">
               <img class="cardFundo" src={asics} />
@@ -107,7 +107,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/e950/45c4/72bf3e6d97f2f643f9d193b0387945ae?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nPbfN6fKxafZCiB45HgoCOiI-tKJUOW6HH5CJHxcz~YqoYfSCXwUkZHlp2fQkOXnES0V6Qn7rngfNqN5Zznu-oCIRFLuvZM2S~rF3zdICAgbaw-Qx6Qiuk97iW4gVEYH5toOP-SUK4liBIYM6IP~Lorg98Q-vfNDT1TsQ3MgPzYn1Ins3H7SEcEuCfXJx~jaQT5USU25nhS-~WT~irZBfv0RjE0ELvJDszDzqXwEHUVA1om-Nbl2cOGSO5JE-m1kK1nZGsfzcZL~e2s1Kh13-Gk16HkAG25cPqEfQEp1MKINxNswUBqslDAYmaDQpo961fNZimVuA1dsMHn3-hteSw__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/e950/45c4/72bf3e6d97f2f643f9d193b0387945ae?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YkvvdZrW0kEkpF5DcQ2pN-Ku10AI8XofpEHlhcDFOmeJvHvVr3lP3aZSF-I8-ScwyYkVcPwD8liEfPrVBbto7-8PRImOsZ6Fyajic31XPmGb4cwNdcQz9HNn4ajS6Xb-id70JWJISK62E1fHU4vh3RMGb1DW6BR~JGCjnZP3zMcSehkf6-FZDXlX9anT-hP9wxno5iIungXb2sNZTlKMzVimv~qnDpdDe3ItwDb4ERjxGNl2~5dOZoAXysc8EkMEwfYI5MhbUKKEl-qvofTAoTzj~nTEw3RxQbVZ99CFcaPC5qHav7oIghZJeEusRCnpSUuVbrQjVf1HySDVWJIrTA__" />
 
             <div class="inv">
               <img class="cardFundo" src={jordan} />
@@ -117,7 +117,7 @@ function Calcados() {
             </div>
           </div>
           <div class="Card">
-            <img class="logo" src="https://s3-alpha-sig.figma.com/img/2529/cbb9/d9132cf4aabc68954c6f24130102ac9e?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n3Akevaz6hfpgqQxiqWHyt2oBKk7kevF1v8-ygSrVJXHJVISPws54xJR7J9eXNZDL9irDBfk-TgBNt2R27WvYuho4POxHzaNCp7Fs2VX9pdFLeQfV5xQPIkYuW9gFlzVgZx5ScMjaZoMH~gFpA8vZhLE-ZK85r9841mUe9YmisQIEJZspWcJBRPerTVJutAH0dvkIEkXu7keuXDxtgVXyFYjzsQzXkDsmYw0jCdboZ8dlPnTYeb9eH8wUy2lHb7MjArERkAZg8LnCIatUtf9WNmVQclwXtAOfDKQTGiGj1~XLOFoil-5Q1YXUoXY2u0zbZqdohhafozMPoY2wPZVfw__" />
+            <img class="logo" src="https://s3-alpha-sig.figma.com/img/2529/cbb9/d9132cf4aabc68954c6f24130102ac9e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oM0OJwh6AEw98KOQhAEXMPfYUPznD2RmmMHOSkIu0mp26cbFopryGCq-Tt3P1prHCLapVkA7TuWJ1eItCYKhwCeDWrtNnEJbHjQtTjgAy9oC5zMcZbUGwCZ7zG9Bg0gH5uvZOmZYAYhc3fuuy8CNR3hgIx1QkPbrMNlSyIQJ0XqpvwXvqBof7W~FVijugrDaBl6kh80ecAu1shj1Wd10AJoJDVxuJv5KzEKbhGvMDyqBxoOiIAoNhVKBeI3bSJfj8eqcRQ803ss6iTf6rbYgMNW3l9l99DYl10ucfUXvoHaCyXtg-Q7ZlTBziwb3zi40V6y1tPIRIsf7DY73l5EHeg__" />
 
             <div class="inv">
               <img class="cardFundo" src={newb} />
@@ -139,7 +139,6 @@ function Calcados() {
                 <div className="CardP" key={calcado.id}>
                   <img src={calcado.imagem} />
                   <h1>{calcado.Nome}</h1>
-                  <div className="price">A vista no Pix 299$</div>
                   <div className={`color-indicator cor-${calcado.Cor.toLowerCase()}`}>
                   </div>
 
@@ -158,7 +157,7 @@ function Calcados() {
                 </div>
               ))}
             </div>
-            <button className="Cadastrar" onClick={Indo}>Cadastrar tênis</button>
+            <button className="Cadastrar" onClick={Indo}>ADICINAR NOVO ITEM  <h1>+</h1></button>
           </div>
         ) : (
           <>

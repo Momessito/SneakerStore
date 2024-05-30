@@ -6,6 +6,9 @@
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
     }
+    *{
+        font-family: "Inter", sans-serif;
+    }
 
     @keyframes scale-in-hor-left {
         0% {
@@ -133,9 +136,10 @@
         z-index: 1;
     }
     .Card h1{
-        font-size: 1.3rem;
+        font-size: 32px;
         font-weight: 600;
         margin-top: 50px;
+
         position: relative;
         z-index: 1;
         animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -194,8 +198,10 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        align-items: stretch;
     }
     .CardP{
+        width: 300px;
         padding: 20px;
             margin: 10px;
         border-radius: 5px;
@@ -209,7 +215,6 @@
     }
     .CardP img{
         width: auto;
-        min-width: 300px;
         max-width: 300px;
         box-shadow: 0px 0px 5px solid rgba(0, 0, 0, 0.192);
         border-radius: 5px;
@@ -220,6 +225,7 @@
     .numbers{
         display: flex;
         align-items: center;
+        font-weight: 700;
     }
 
     .num{
@@ -262,29 +268,161 @@
         display: flex;
       }
       .buttonsCard button{
+        margin: 5px;
+        border: 0px ;
+        color: #1E1E1E;
+        padding: 10px 35px;
+        border-radius: 5px;
+        width: auto;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .buttonsCard button:first-child{
+        background-color: #5D8BFF;
+      }
+      .buttonsCard button:last-child{
+        background-color: #FF3636;
+      }
+
+      .Cadastrar{
+        font-family: "Inter", sans-serif;
+        margin: 15px;
+        border: 0px ;
+        color: white;
+        padding: 0px 30px;
+        border-radius: 5px;
+        width: auto;
+        cursor: pointer;
+        background-color: #1ACC36;
+        font-weight: 
+        700;
+        display: flex;
+        align-items: center;
+      }
+
+      .icone{
+        width: 50px;
+        margin: 30px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .CadastroI{
+        display: flex;
+        align-items: center;
+      }
+      .CadastroI input{
+        border: 1px solid #1E1E1E;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .CadastroI p{
+        width: 300px;
+      }
+      #botaoCadastro{
         margin: 15px;
         border: 0px ;
         color: #1E1E1E;
         padding: 10px 55px;
         border-radius: 5px;
         width: auto;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
         cursor: pointer;
-      }
-      .buttonsCard button:first-child{
-        background-color: rgb(179, 179, 224);
-      }
-      .buttonsCard button:last-child{
-        background-color: rgb(224, 179, 179);
+        background-color: #5D8BFF;
       }
 
-      .Cadastrar{
-        margin: 15px;
-        border: 0px ;
-        color: white;
-        padding: 20px 0px;
-        border-radius: 5px;
-        width: calc(100% - 30px);
+      .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #480ca8;
+    }
+    
+    .formLogin {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 40px;
+        box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+        gap: 5px
+    }
+    
+    .areaLogin img {
+        width: 420px;
+    }
+    
+    .formLogin h1 {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        font-size: 2.3em;
+    }
+    
+    .formLogin p {
+        display: inline-block;
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 25px;
+    }
+    
+    .formLogin input {
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;
+    }
+    
+    
+    .formLogin input:focus {
+        border: 1px solid #5D8BFF;
+    }
+    
+    .formLogin label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .formLogin a {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 13px;
+        color: #555;
+        transition: all linear 160ms;
+    }
+    
+    .formLogin a:hover {
+        color: #5D8BFF;
+    }
+    
+    .btn {
+        background-color: #5D8BFF;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: none !important;
+        transition: all linear 160ms;
         cursor: pointer;
-        background-color: #1E1E1E;
-      }
-
+        margin: 0 !important;
+    
+    }
+    
+    .btn:hover {
+        transform: scale(1.05);
+        background-color: #436fdd;
+    
+    }
